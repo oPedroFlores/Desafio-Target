@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-weight: bold;
+  background-color: rgba(0, 0, 148, .4);
+}
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, .3);
+  padding: 2rem;
+  font-size: 1.125rem;
+  color: aliceblue;
+}
+
+button{
+  margin-top: .5rem;
+  padding: 1rem 2rem;
+  border: 1px solid aliceblue;
+  background: none;
+  color: aliceblue;
+  border-radius: .3rem;
+  transition: .2s;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.04);
+  background: rgba(0, 0, 0, .05);
+}
+
+#divResultado{
+  margin-top: 2rem;
+  width: 200px;
+}
